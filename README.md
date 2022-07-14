@@ -1,7 +1,7 @@
 # GNL 🤖
  [![Intro](https://img.shields.io/badge/Cursus-GNL-success?style=for-the-badge&logo=42)](https://github.com/Kirnata/get_next_line.git)<br>
-"Reading a line from a fd is way too tedious"
-Bonus get_next_line() can manage multiple file descriptors at the same time. We can read from a different fd per call without losing the reading thread of each file descriptor or returning a line from another fd. <br>
+ 
+## "Reading a line from a fd is way too tedious"
 
 ## Cloning <br>
 ```
@@ -33,6 +33,9 @@ gcc tests/main_stdin.c -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line.c g
 ```
 
 **GNL Bonus Part**
+
+Bonus get_next_line() can manage multiple file descriptors at the same time.<br>
+We can read from a different fd per call without losing the reading thread of each file descriptor or returning a line from another fd.<br>
 ```bash
 gcc tests/main_bonus.c -g -Wall -Wextra -Werror -D BUFFER_SIZE=1 get_next_line_bonus.c get_next_line_utils_bonus.c
 
