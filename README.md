@@ -1,4 +1,4 @@
-# Fract_ol
+# GNL 🤖
  [![Intro](https://img.shields.io/badge/Cursus-GNL-success?style=for-the-badge&logo=42)](https://github.com/Kirnata/get_next_line.git)<br>
 "Reading a line from a fd is way too tedious"
 Bonus get_next_line() can manage multiple file descriptors at the same time. We can read from a different fd per call without losing the reading thread of each file descriptor or returning a line from another fd. <br>
